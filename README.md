@@ -16,25 +16,25 @@ Here, an example is given as:
 
       >./NWalign
         
-          query : Query sequence
-          templ : Template sequence
-
-          e.g.,:
-          ./NWalign GKVFLTNAFSINMLKEFPTTITIDKLDEEDFCLKLELRLEDGTLINAIGHDSTINLVNTL VQGAGVVGETPTIPPNTAYQYTSGTVLDTPFGIMYGTYGMVSESGEHFNAIIKPFRLATP
+            query : Query sequence
+            templ : Template sequence
+            
+            e.g.,:
+            ./NWalign GKVFLTNAFSINMLKEFPTTITIDKLDEEDFCLKLELRLEDGTLINAIGHDSTINLVNTL VQGAGVVGETPTIPPNTAYQYTSGTVLDTPFGIMYGTYGMVSESGEHFNAIIKPFRLATP
       
       or
       
       >./NWalign GKVFLTNAFSINMLKEFPTTITIDKLDEEDFCLKLELRLEDGTLINAIGHDSTINLVNTL VQGAGVVGETPTIPPNTAYQYTSGTVLDTPFGIMYGTYGMVSESGEHFNAIIKPFRLATP
       
-      First (query) sequence length     : 60
-      Second (template) sequence length : 60
-      Number of identical pairs : 12
-      Number of aligned pairs : 53
-      Sequence identity : 0.2 (12/60)
+            First (query) sequence length     : 60
+            Second (template) sequence length : 60
+            Number of identical pairs : 12
+            Number of aligned pairs : 53
+            Sequence identity : 0.2 (12/60)
       
-      ----GKVFLTNAFSINMLKEFPTTITIDKLDEEDFCLKLE---LRLEDGTLINAIGHDSTINLVNTL
-          : :  :     :           :      :           : :   :::          : 
-      VQGAGVVGETPTIPPNTAYQYTSGTVLDT----PFGIMYGTYGMVSESGEHFNAIIKPFRLA---TP
+            ----GKVFLTNAFSINMLKEFPTTITIDKLDEEDFCLKLE---LRLEDGTLINAIGHDSTINLVNTL
+                : :  :     :           :      :           : :   :::          : 
+            VQGAGVVGETPTIPPNTAYQYTSGTVLDT----PFGIMYGTYGMVSESGEHFNAIIKPFRLA---TP
 
 
 
