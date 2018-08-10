@@ -6,11 +6,11 @@ This program, which is wrote by using C/C++ lauguage.
 
 You can download the C/C++ source code and compile it by yourself, as follows:
 
-      >g++ -o NWalign NWalign.cpp
+      >g++ -static -O3 -ffast-math -lm -o NWalign NWalign.cpp
       
       or
       
-      >g++ -static -O3 -ffast-math -lm -o NWalign NWalign.cpp
+      >g++ -o NWalign NWalign.cpp
 
 Here, an example is given as:
 
