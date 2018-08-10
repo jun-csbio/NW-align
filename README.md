@@ -4,6 +4,8 @@ By using with BLOSUM62 matrix and Needleman-Wunsch dynamical programming, this p
 
 This program, which is wrote by using C/C++ lauguage, can implement the similar function of the web page (https://zhanglab.ccmb.med.umich.edu/NW-align). 
 
+On 10,000 protein sequence pairs, which are randomly selected from PDB, we compared the running time of this program and the fortran version of NW-align, which is downloaded from https://zhanglab.ccmb.med.umich.edu/NW-align. The comparison results show this C/C++ program (average running time is 0.0032 s) can run faster than the fortran version (average running time is 0.0075 s). 
+
 You can download the C/C++ source code and compile it by yourself, as follows:
 
       >g++ -static -O3 -ffast-math -lm -o NWalign NWalign.cpp
