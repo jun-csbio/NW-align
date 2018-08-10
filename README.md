@@ -2,7 +2,7 @@
 
 By using with BLOSUM62 matrix and Needleman-Wunsch dynamical programming, this program can be used to align two protein sequences.
 
-This program, which is wrote by using C/C++ lauguage. 
+This program, which is wrote by using C/C++ lauguage, can implement the same function of the web page (https://zhanglab.ccmb.med.umich.edu/). 
 
 You can download the C/C++ source code and compile it by yourself, as follows:
 
