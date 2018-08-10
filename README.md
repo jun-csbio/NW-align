@@ -12,7 +12,7 @@ You can download the C/C++ source code and compile it by yourself, as follows:
       
       >g++ -o NWalign NWalign.cpp
 
-Here, an example is given as:
+Here, an example of usage is given as:
 
       >./NWalign
         
